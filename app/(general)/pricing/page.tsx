@@ -11,14 +11,7 @@ export const metadata :Metadata={
 export default function PricingContact(){
 
     return(
-        <>
-
-        <div className="flex flex-col">
-    <span className="text-center text-5xl"> pagina de precios</span>
-         
-        </div>
-≈        
-        </>
+       <span className="text-7xl "> about page</span>
     )
 
 }

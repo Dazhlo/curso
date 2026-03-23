@@ -10,12 +10,11 @@ export const metadata :Metadata={
 export default function ContactPage(){
 
     return(
-<>
-<div className="flex flex-col">
+
+
 
     <span className="text-center text-5xl">  pagina de contact</span>
-</div>
-</>
+
 
     )
 

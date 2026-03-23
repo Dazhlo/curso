@@ -1,0 +1,15 @@
+
+export default function AboutPage({
+ children
+}: {
+ children: React.ReactNode;
+}) {
+  return (
+   <main className="flex flex-col items-center p-24">
+
+      <span className="text-lg"> hola gente</span>
+  
+      {children}
+    </main>
+  );
+}
