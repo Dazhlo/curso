@@ -1,15 +1,21 @@
-
-export default function AboutPage({
+import { Navbar } from "@/components";
+export default function General({
  children
 }: {
  children: React.ReactNode;
 }) {
   return (
+
+ 
+
+    <>
+   <Navbar></Navbar>
    <main className="flex flex-col items-center p-24">
 
-      <span className="text-lg"> hola gente</span>
-  
-      {children}
+      <span className="text-lg"> hola navbar</span>
+     {children}
+   
     </main>
+     </>
   );
 }
